@@ -1,4 +1,5 @@
 <div class="chat-header">
+  <%= @room.name %>
 </div>
 <div class="chat-main">
   <%= render partial: "message", collection: @messages %>
